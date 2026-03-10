@@ -28,5 +28,12 @@ while (x == 1):
             num = random.randint(1, dado)
             print(giro, "dado:", num)
             giro += 1
+        elif dado == 100:
+            num = random.randint(1, dado)
+            print(giro, "dado:", num)
+            giro += 1
+        else:
+            print("tem não parca")
+        
         total += num
     print("total:" , total)
