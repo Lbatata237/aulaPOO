@@ -24,6 +24,10 @@ while (x == 1):
             num = random.randint(1, dado)
             print(giro, "dado:", num)
             giro += 1
+        elif dado == 16:
+            num = random.randint(1, dado)
+            print(giro, "dado:", num)
+            giro += 1
         elif dado == 20:
             num = random.randint(1, dado)
             print(giro, "dado:", num)
@@ -33,7 +37,7 @@ while (x == 1):
             print(giro, "dado:", num)
             giro += 1
         else:
-            print("tem não parca")
+            print("tem não parça")
         
         total += num
     print("total:" , total)
