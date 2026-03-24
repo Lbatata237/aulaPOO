@@ -16,6 +16,10 @@ while (x == 1):
             num = random.randint(1, dado)
             print(giro, "dado:", num)
             giro += 1
+        elif dado == 8:
+            num = random.randint(1, dado)
+            print(giro, "dado:", num)
+            giro += 1
         elif dado == 10:
             num = random.randint(1, dado)
             print(giro, "dado:", num)
