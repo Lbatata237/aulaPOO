@@ -21,7 +21,7 @@ class Estudante:
 
 leo = Estudante("LeoBatata")
 leo.dataIdade = "14/??/2009"
-leo.cpf = "404.057.777-67" #cpf mais aleatério que ja dive
+leo.cpf = "404.057.777-67" #cpf mais aleatério que ja inventei
 boeno = Estudante()
 boeno.nome = "Sabriel Bobassouro"
 boeno.dataIdade = "??/04/2009"
